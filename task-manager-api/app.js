@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 
-const userRoutes = require('/routes/user');
-const taskRoutes = require('/routes/task');
+const userRoutes = require('./routes/User');
+const taskRoutes = require('./routes/Task');
 
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
