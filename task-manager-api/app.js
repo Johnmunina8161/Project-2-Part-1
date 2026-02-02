@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 
-const userRoutes = require('./routes/User'); // Ensure file is User.js or lowercase user.js
-const taskRoutes = require('./routes/Task'); // Ensure file is Task.js or lowercase task.js
+const userRoutes = require('./routes/User'); 
+const taskRoutes = require('./routes/Task'); 
 
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
